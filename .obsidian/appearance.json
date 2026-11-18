@@ -9,5 +9,8 @@
   "cssTheme": "Minimal",
   "baseFontSize": 17,
   "translucency": false,
-  "nativeMenus": false
+  "nativeMenus": false,
+  "enabledCssSnippets": [
+    "primary-warm-graphite"
+  ]
 }
