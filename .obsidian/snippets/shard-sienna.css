@@ -1,0 +1,176 @@
+/* Minimal defines both properties on :root. */
+@container style(--ribbon-animation-duration) and style(--focus-animation-duration) {
+    /*
+    Shard Sienna for the Minimal theme.
+    */
+
+    /* Sienna Cotton */
+    body.theme-light {
+        --bg1: #faf6ee;
+        --bg2: #f3ede1;
+        --bg3: rgb(44 37 29 / 5.5%);
+        --ui1: #e2d9c8;
+        --ui2: #cfc3ae;
+        --ui3: #b9ab95;
+        --tx1: #2c251d;
+        --tx2: #665b4e;
+        --tx3: #968979;
+        --tx4: #3b3228;
+        --ax3: #b85a3a;
+        --ax2: #9e492c;
+        --hl1: rgb(184 90 58 / 18%);
+        --hl2: rgb(212 161 74 / 28%);
+        --sp1: var(--bg1);
+
+        --color-base-05: #fdfbf7;
+        --color-base-10: #f1e9da;
+        --color-base-25: #eae2d3;
+        --color-base-50: #a89a89;
+        --background-secondary-alt: #eae2d3;
+        --background-modifier-active-hover: rgb(44 37 29 / 9%);
+        --background-modifier-form-field: #fdfbf7;
+        --background-modifier-box-shadow: rgb(44 37 29 / 8%);
+        --interactive-normal: #efe8da;
+        --interactive-hover: #e5dccb;
+        --text-error: #b33a3a;
+        --text-success: #3e6b48;
+        --text-warning: #a66e1e;
+        --code-background: #f1e9da;
+        --blockquote-background-color: rgb(234 226 211 / 45%);
+        --table-header-background: #efe7d8;
+        --background-table-rows: rgb(243 237 225 / 55%);
+        --tag-background: rgb(184 90 58 / 11%);
+    }
+
+    /* Sienna Espresso */
+    body.theme-dark {
+        --bg1: #24211d;
+        --bg2: #1d1a17;
+        --bg3: rgb(235 226 211 / 6%);
+        --ui1: #363029;
+        --ui2: #453d33;
+        --ui3: #5c5144;
+        --tx1: #ebe2d3;
+        --tx2: #a89d8e;
+        --tx3: #756b5e;
+        --tx4: #dfd5c5;
+        --ax3: #d97b59;
+        --ax2: #e68f6f;
+        --hl1: rgb(217 123 89 / 24%);
+        --hl2: rgb(212 161 74 / 24%);
+        --sp1: var(--bg1);
+
+        --color-base-05: #2a2621;
+        --color-base-10: #2c2823;
+        --color-base-25: #2b2722;
+        --color-base-50: #665c50;
+        --background-secondary-alt: #2b2722;
+        --background-modifier-active-hover: rgb(235 226 211 / 10%);
+        --background-modifier-form-field: #2a2621;
+        --background-modifier-box-shadow: rgb(0 0 0 / 35%);
+        --interactive-normal: #2f2a24;
+        --interactive-hover: #3a342c;
+        --text-error: #e06c6c;
+        --text-success: #7ca387;
+        --text-warning: #d4a14a;
+        --code-background: #2c2823;
+        --blockquote-background-color: rgb(43 39 34 / 65%);
+        --table-header-background: #2c2721;
+        --background-table-rows: rgb(43 39 34 / 45%);
+        --tag-background: rgb(217 123 89 / 16%);
+    }
+
+    body:is(.theme-light, .theme-dark) {
+        --ax1: var(--ax3);
+
+        --color-base-00: var(--bg1);
+        --color-base-20: var(--bg2);
+        --color-base-30: var(--ui1);
+        --color-base-35: var(--ui2);
+        --color-base-40: var(--ui3);
+        --color-base-60: var(--tx3);
+        --color-base-70: var(--tx2);
+        --color-base-100: var(--tx1);
+
+        --background-primary: var(--bg1);
+        --background-primary-alt: var(--bg2);
+        --background-secondary: var(--bg2);
+        --background-modifier-hover: var(--bg3);
+        --background-modifier-border: var(--ui1);
+        --background-modifier-border-hover: var(--ui2);
+        --background-modifier-border-focus: var(--ax3);
+
+        --color-accent: var(--ax3);
+        --color-accent-1: var(--ax3);
+        --color-accent-2: var(--ax2);
+        --interactive-accent: var(--ax3);
+        --interactive-accent-hover: var(--ax2);
+        --text-normal: var(--tx1);
+        --text-muted: var(--tx2);
+        --text-faint: var(--tx3);
+        --text-on-accent: var(--sp1);
+        --text-accent: var(--ax1);
+        --text-accent-hover: var(--ax2);
+        --text-selection: var(--hl1);
+        --text-highlight-bg: var(--hl2);
+
+        --code-normal: var(--tx4);
+        --blockquote-border-color: var(--ax3);
+        --table-row-alt-background: var(--background-table-rows);
+        --tag-color: var(--ax2);
+    }
+
+    /*
+    Sienna Terracotta is the default.
+    Keep only one of the CSS presets below uncommented.
+    */
+
+    /* Sienna Olive */
+    /*body.theme-light {
+    --ax3: #4f6d58;
+    --ax2: #3e5746;
+    --hl1: rgb(79 109 88 / 18%);
+    --tag-background: rgb(79 109 88 / 12%);
+  }
+
+  body.theme-dark {
+    --ax3: #7ca387;
+    --ax2: #92b89d;
+    --hl1: rgb(124 163 135 / 24%);
+    --tag-background: rgb(124 163 135 / 16%);
+  }*/
+
+    /* Sienna Ochre */
+    /*
+  body.theme-light {
+    --ax3: #a67526;
+    --ax2: #8a5f1b;
+    --hl1: rgb(166 117 38 / 20%);
+    --tag-background: rgb(166 117 38 / 13%);
+  }
+
+  body.theme-dark {
+    --ax3: #d4a14a;
+    --ax2: #e3b462;
+    --hl1: rgb(212 161 74 / 24%);
+    --tag-background: rgb(212 161 74 / 16%);
+  }
+  */
+
+    /* Sienna Slate Ink */
+    /*
+  body.theme-light {
+    --ax3: #3d5a73;
+    --ax2: #2e465b;
+    --hl1: rgb(61 90 115 / 18%);
+    --tag-background: rgb(61 90 115 / 11%);
+  }
+
+  body.theme-dark {
+    --ax3: #7399ba;
+    --ax2: #8bb0cf;
+    --hl1: rgb(115 153 186 / 24%);
+    --tag-background: rgb(115 153 186 / 16%);
+  }
+  */
+}

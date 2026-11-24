@@ -3,12 +3,13 @@
   "textFontFamily": "Hack Nerd Font",
   "monospaceFontFamily": "JetBrainsMono Nerd Font Mono",
   "theme": "system",
-  "accentColor": "#f0cf51",
+  "accentColor": "#968979",
   "showViewHeader": false,
   "showRibbon": false,
   "cssTheme": "Minimal",
   "translucency": false,
   "enabledCssSnippets": [
-    "primary-warm-graphite"
+    "minimal-tabs",
+    "shard-sienna"
   ]
 }
