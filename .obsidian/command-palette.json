@@ -1,7 +1,6 @@
 {
   "pinned": [
-    "insert-template",
     "obsidian-git:push",
-    "obsidian-excalidraw-plugin:excalidraw-autocreate-and-embed-popout"
+    "obsidian-excalidraw-plugin:excalidraw-autocreate-popout"
   ]
 }
