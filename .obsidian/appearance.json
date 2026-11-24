@@ -10,6 +10,7 @@
   "translucency": false,
   "enabledCssSnippets": [
     "minimal-tabs",
-    "shard-sienna"
+    "shard-sienna",
+    "workspace-no-borders"
   ]
 }

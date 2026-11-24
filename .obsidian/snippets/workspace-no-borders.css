@@ -1,0 +1,12 @@
+/* Minimal defines both properties on :root. */
+@container style(--ribbon-animation-duration) and style(--focus-animation-duration) {
+  /* Hide workspace dividers and tab outlines. */
+  body .workspace {
+    --divider-width: 0px;
+    --tab-outline-width: 0px;
+  }
+
+  body .workspace .mod-root .workspace-tab-header-container {
+    --tab-outline-width: 0px;
+  }
+}
